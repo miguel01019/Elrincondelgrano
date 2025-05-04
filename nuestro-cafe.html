@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Café - El Rincón del Grano</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="El Rincón del Grano" class="logo-img">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="nuestro-cafe.html" class="active">Nuestro Café</a>
+            <a href="experiencia.html">Experiencia</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Nuestro Café</h1>
+            <p>Descubre la excelencia en cada grano</p>
+        </div>
+    </section>
+
+    <!-- Tipos de Café -->
+    <section class="cafe-tipos">
+        <h2 class="section-title" data-aos="fade-up">Nuestras Variedades</h2>
+        
+        <div class="tipo-cafe" data-aos="flip-left">
+            <div class="cafe-card">
+                <div class="cafe-image">
+                    <img src="img/ara.jpg" alt="Café Arábica">
+                </div>
+                <h2>Arábica Premium</h2>
+                <p class="cafe-descripcion">Cultivado en altitudes superiores a 1,200 metros, nuestro café arábica premium ofrece notas delicadas de chocolate y frutos rojos.</p>
+                <ul class="cafe-caracteristicas">
+                    <li><i class="fas fa-mountain"></i> Altitud: 1,200-1,800m</li>
+                    <li><i class="fas fa-thermometer-half"></i> Tostado: Medio</li>
+                    <li><i class="fas fa-wine-glass-alt"></i> Notas: Chocolate, Frutos Rojos</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Origen: Colombia</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tipo-cafe" data-aos="flip-right">
+            <div class="cafe-card">
+                <div class="cafe-image">
+                    <img src="img/blend.jpg" alt="Blend Especial">
+                </div>
+                <h2>Blend Especial</h2>
+                <p class="cafe-descripcion">Una mezcla única de granos seleccionados que resulta en una taza perfectamente balanceada con notas de caramelo y cítricos.</p>
+                <ul class="cafe-caracteristicas">
+                    <li><i class="fas fa-layer-group"></i> Composición: 70% Arábica, 30% Robusta</li>
+                    <li><i class="fas fa-thermometer-half"></i> Tostado: Medio-Oscuro</li>
+                    <li><i class="fas fa-wine-glass-alt"></i> Notas: Caramelo, Cítricos</li>
+                    <li><i class="fas fa-star"></i> Intensidad: Media-Alta</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tipo-cafe" data-aos="flip-up">
+            <div class="cafe-card">
+                <div class="cafe-image">
+                    <img src="img/especial.jpg" alt="Café de Especialidad">
+                </div>
+                <h2>Café de Especialidad</h2>
+                <p class="cafe-descripcion">Edición limitada de granos excepcionales con una puntuación superior a 85 puntos en la escala de calidad.</p>
+                <ul class="cafe-caracteristicas">
+                    <li><i class="fas fa-award"></i> Puntuación: 85+ puntos</li>
+                    <li><i class="fas fa-thermometer-half"></i> Tostado: Personalizado</li>
+                    <li><i class="fas fa-wine-glass-alt"></i> Notas: Florales, Afrutadas</li>
+                    <li><i class="fas fa-leaf"></i> Proceso: Natural</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="proceso-cafe">
+        <h2 class="section-title">Del Origen a Tu Taza</h2>
+        <div class="proceso-timeline">
+            <div class="proceso-item" data-aos="fade-right">
+                <i class="fas fa-seedling"></i>
+                <h3>Selección</h3>
+                <p>Cuidadosa selección de los mejores granos verdes de regiones premium.</p>
+             
+            </div>
+            <div class="proceso-item" data-aos="fade-right" data-aos-delay="200">
+                <i class="fas fa-fire"></i>
+                <h3>Tostado</h3>
+                <p>Tostado artesanal para resaltar los mejores atributos de cada origen.</p>
+           
+            </div>
+            <div class="proceso-item" data-aos="fade-right" data-aos-delay="400">
+                <i class="fas fa-coffee"></i>
+                <h3>Catación</h3>
+                <p>Control de calidad riguroso en cada lote para garantizar la excelencia.</p>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Preparación -->
+    <section class="preparacion-cafe">
+        <h2 class="section-title">Guía de Preparación</h2>
+        <div class="metodos-grid">
+            <div class="metodo-card" data-aos="zoom-in">
+                <i class="fas fa-filter"></i>
+                <h3>Pour Over</h3>
+                <p>Método de filtrado que resalta las notas más sutiles del café.</p>
+                <div class="metodo-pasos">
+                    <span>Molienda Media</span>
+                    <span>93°C</span>
+                    <span>3 Minutos</span>
+                </div>
+            </div>
+            <div class="metodo-card" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-glass-whiskey"></i>
+                <h3>Espresso</h3>
+                <p>Extracción concentrada para un sabor intenso y cremoso.</p>
+                <div class="metodo-pasos">
+                    <span>Molienda Fina</span>
+                    <span>92°C</span>
+                    <span>25-30 Seg</span>
+                </div>
+            </div>
+            <div class="metodo-card" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fas fa-flask"></i>
+                <h3>Chemex</h3>
+                <p>Método que realza la limpieza y claridad del café.</p>
+                <div class="metodo-pasos">
+                    <span>Molienda Media-Gruesa</span>
+                    <span>94°C</span>
+                    <span>4 Minutos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu email">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 El Rincón del Grano. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

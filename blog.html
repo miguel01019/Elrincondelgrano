@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - El Rincón del Grano</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="El Rincón del Grano" class="logo-img">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="nuestro-cafe.html">Nuestro Café</a>
+            <a href="experiencia.html">Experiencia</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Blog del Café</h1>
+            <p>Historias, consejos y secretos del mundo del café</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="posts-grid">
+            <article class="post-card" data-aos="fade-up">
+                <div class="post-image">
+                    <img src="img/tostado.jpg" alt="El Arte del Tostado">
+                </div>
+                <div class="post-content">
+                    <h2>El Arte del Tostado</h2>
+                    <p class="post-meta">Por Juan Pérez | 15 Marzo 2024</p>
+                    <p>Descubre los secretos detrás del proceso perfecto de tostado y cómo cada grano desarrolla su sabor único...</p>
+                    <a href="articulos/el-arte-del-tostado.html" class="read-more">Leer más</a>
+                </div>
+            </article>
+
+            <article class="post-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="post-image">
+                    <img src="img/fondo.jpg" alt="Orígenes del Café">
+                </div>
+                <div class="post-content">
+                    <h2>Orígenes del Café</h2>
+                    <p class="post-meta">Por María García | 10 Marzo 2024</p>
+                    <p>Un viaje por las regiones productoras más exclusivas del mundo y sus características únicas...</p>
+                    <a href="articulos/origenes-del-cafe.html" class="read-more">Leer más</a>
+                </div>
+            </article>
+
+            <article class="post-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="post-image">
+                    <img src="img/prepa.jpg" alt="Métodos de Preparación">
+                </div>
+                <div class="post-content">
+                    <h2>Métodos de Preparación</h2>
+                    <p class="post-meta">Por Carlos Ruiz | 5 Marzo 2024</p>
+                    <p>Explora las diferentes técnicas de preparación y cómo afectan al sabor final de tu café...</p>
+                    <a href="articulos/metodos-de-preparacion.html" class="read-more">Leer más</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Categorías -->
+        <aside class="blog-sidebar" data-aos="fade-left">
+            <div class="sidebar-widget">
+                <h3>Categorías</h3>
+                <ul class="categories-list">
+                    <li><a href="#">Preparación (5)</a></li>
+                    <li><a href="#">Orígenes (3)</a></li>
+                    <li><a href="#">Recetas (4)</a></li>
+                    <li><a href="#">Cultura (6)</a></li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu email">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 El Rincón del Grano. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
